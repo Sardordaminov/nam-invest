@@ -4,4 +4,10 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+html,
+body {
+  width: 100vw;
+  overflow-x: hidden;
 }

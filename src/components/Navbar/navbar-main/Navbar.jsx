@@ -1,12 +1,14 @@
 import React from 'react'
 import NavbarTop from '../navbar-top/NavbarTop'
+import { NavbarMain } from '../navbar.styles'
+import NavbarBottom from '../navbar-bottom/NavbarBottom'
 
 function Navbar() {
   return (
-    <div>
+    <NavbarMain>
       <NavbarTop />
-      Navbar
-    </div>
+      <NavbarBottom />
+    </NavbarMain>
   )
 }
 

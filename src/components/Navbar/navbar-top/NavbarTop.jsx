@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavbarTopStlyes, Container, LogoBx, ContainerItem, SearchBx, SearchIcon } from '../navbar.styles.js'
+import { NavbarTopStlyes, Container, LogoBx, ContainerItem, SearchBx } from '../navbar.styles.js'
 import Gerb from '../../../assets/logo/gerb.png'
 import Logo from '../../../assets/logo/logo.png'
 import { NavLink } from 'react-router-dom'
