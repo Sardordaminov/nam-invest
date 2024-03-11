@@ -112,6 +112,7 @@ export const NavItemModalBx = styled.div`
   z-index: 10;
   transform: translateX(-0%);
   opacity: 0;
+  visibility: hidden;
   transition: 0.2s ease;
 `;
 export const NavItem = styled.div`
@@ -128,6 +129,7 @@ export const NavItem = styled.div`
     }
     ${NavItemModalBx} {
       opacity: 1;
+      visibility: visible;
     }
   }
 `;

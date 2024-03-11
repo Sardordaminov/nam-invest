@@ -1,0 +1,24 @@
+.swiper {
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 100px;
+  background-color: #ffffff20;
+  backdrop-filter: blur(3px);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.swiper-slide h1 {
+  color: #00aeef;
+}

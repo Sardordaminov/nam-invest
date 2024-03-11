@@ -5,5 +5,5 @@ export const VideoBx = styled.div`
   filter: brightness(70%);
   width: 100vw;
   min-height: 100%;
-  z-index: -1;
+  z-index: -10;
 `;

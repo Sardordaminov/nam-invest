@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
 export const HomeStyles = styled.div`
+  position: relative;
   width: 100vw;
   min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 40px 0px;
 `;
 export const HomeItem = styled.div`
   width: 500px;
@@ -29,5 +31,18 @@ export const HomeItemBtn = styled.button`
   &:hover {
     backdrop-filter: blur(10px);
     transform: scale(1.01);
+  }
+`;
+export const HomeSocialIcons = styled.div`
+  position: absolute;
+  bottom: 0;
+  a {
+    color: #fff;
+    font-size: 16px;
+    margin: 0px 7px;
+    transition: 0.2s ease;
+    &:hover {
+      color: #00aeef;
+    }
   }
 `;
