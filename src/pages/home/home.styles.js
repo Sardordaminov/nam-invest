@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const HomeStyles = styled.div`
   position: relative;
   width: 100vw;
+`;
+export const Header = styled.div`
+  position: relative;
+  width: 100%;
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -36,6 +40,7 @@ export const HomeItemBtn = styled.button`
 export const HomeSocialIcons = styled.div`
   position: absolute;
   bottom: 0;
+  left: 0;
   a {
     color: #fff;
     font-size: 16px;

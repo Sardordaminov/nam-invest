@@ -8,15 +8,13 @@ export const NavbarMain = styled.div`
 
 export const NavbarTopStlyes = styled.div`
   width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: transparent;
   border-bottom: 1px solid #eeeeee50;
 `;
 export const Container = styled.div`
-  width: 1200px;
+  max-width: 1200px;
   min-height: 60px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -92,9 +90,6 @@ export const SearchBx = styled.div`
 export const NavbarBot = styled.div`
   width: 100vw;
   min-height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: visible;
 `;
 export const NavItems = styled.div`

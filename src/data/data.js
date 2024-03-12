@@ -11,186 +11,230 @@ export const navbarData = [
   {
     id: 1,
     name: "О Узбекистане",
+    pathName: "/about-uzbekistan/info/",
     modalData: [
       {
         id: 1,
         name: "Преимущества узбекистана",
+        pathName: "/about-uzbekistan/why-uzbekistan/",
       },
       {
         id: 2,
         name: "Кратко о Узбекистане",
+        pathName: "/about-uzbekistan/info/",
       },
       {
         id: 3,
         name: "Истории успеха",
+        pathName: "/about-uzbekistan/success-story/",
       },
       {
         id: 4,
         name: "Партнеры о нас",
+        pathName: "/about-uzbekistan/partners-about/",
       },
     ],
   },
   {
     id: 2,
     name: "ПУТЕВОДИТЕЛЬ ИНВЕСТОРА",
+    pathName: "/invest-guide/",
     modalData: [
       {
         id: 1,
         name: "Прибытие в Узбекистан",
+        pathName: "/invest-guide/arrival/",
       },
       {
         id: 2,
         name: "Открытие бизнеса",
+        pathName: "/invest-guide/business-starting/",
       },
       {
         id: 3,
         name: "Развитие бизнеса",
+        pathName: "/invest-guide/doing-business/licensing/",
       },
       {
         id: 4,
         name: "Меры государственной поддержки",
+        pathName: "/invest-guide/support/",
       },
       {
         id: 5,
         name: "Закрытие бизнеса",
+        pathName: "/invest-guide/business-closure/",
       },
     ],
   },
   {
     id: 3,
     name: "ИНВЕСТИЦИОННЫЕ ВОЗМОЖНОСТИ",
+    pathName: "/doing-business-here/regulated-sectors/",
     modalData: [
       {
         id: 1,
         name: "Инвестиционные предложения",
+        pathName: "/doing-business-here/invest-projects/",
       },
       {
         id: 2,
         name: "Отрасли",
+        pathName: "/doing-business-here/regulated-sectors/",
       },
       {
         id: 3,
         name: "Выбор региона",
+        pathName: "/doing-business-here/locations/",
       },
       {
         id: 4,
         name: "Инвестиционные площадки",
+        pathName: "/doing-business-here/fez-and/the-list-of-sez-and/",
       },
       {
         id: 5,
         name: "Государственная поддержка",
+        pathName: "/invest-guide/support/",
       },
       {
         id: 6,
         name: "Государственно-частное партнерство",
+        pathName: "/invest-guide/support/state-chastnoe-partnership/",
       },
       {
         id: 7,
         name: "Нормативные правовые акты",
+        pathName: "/doing-business-here/normative-legal-acts/",
       },
       {
         id: 8,
         name: "Изменения и обновления нормативно-правовых актов",
+        pathName: "/doing-business-here/act-updates/",
       },
     ],
   },
   {
     id: 4,
     name: "О NAM INVEST",
+    pathName: "/about-us/nam-invest/",
     modalData: [
       {
         id: 1,
         name: "О NAM INVEST",
+        pathName: "/about-us/nam-invest/",
       },
       {
         id: 2,
         name: "Совет директоров",
+        pathName: "/about-us/the-board-of-directors/",
       },
       {
         id: 3,
         name: "Комитеты при Совете директоров",
+        pathName: "/about-us/committees-under-the-board-of-directors/",
       },
       {
         id: 4,
         name: "Правление",
+        pathName: "/about-us/the-board/",
       },
       {
         id: 5,
         name: "Наша команда",
+        pathName: "/about-us/our-team/",
       },
       {
         id: 6,
         name: "Как мы помогаем",
+        pathName: "/about-us/how-we-help/",
       },
       {
         id: 7,
         name: "Защита инвесторов",
+        pathName: "/about-us/ombudsman/",
       },
       {
         id: 8,
         name: "Корпоративное управление",
+        pathName: "/about-us/corporate-governance/",
       },
       {
         id: 9,
         name: "Общественный совет",
+        pathName: "/about-us/public-council/",
       },
       {
         id: 10,
         name: "Антикоррупционная комплаенс-служба",
+        pathName: "/about-us/komplaens-ofitser/",
       },
       {
         id: 11,
         name: "Закупки",
+        pathName: "/about-us/purchase/",
       },
       {
         id: 12,
         name: "Вакансии",
+        pathName: "/about-us/career-in-the-company/",
       },
       {
         id: 13,
         name: "Контакты",
+        pathName: "/about-us/contacts/",
       },
       {
         id: 14,
         name: "FAQ",
+        pathName: "/about-us/faq/",
       },
     ],
   },
   {
     id: 5,
     name: "МЕДИА-ЦЕНТР",
+    pathName: "/media-center/press-releases/",
     modalData: [
       {
         id: 1,
         name: "Пресс-релизы",
+        pathName: "/media-center/press-releases/",
       },
       {
         id: 2,
         name: "Мероприятия",
+        pathName: "/calendar/",
       },
       {
         id: 3,
         name: "Видеосюжеты",
+        pathName: "/media-center/videos/",
       },
       {
         id: 4,
         name: "Публикации и презентации",
+        pathName: "/media-center/publications-and-presentations/",
       },
       {
         id: 5,
         name: "Вебинары",
+        pathName: "/media-center/webinars/",
       },
       {
         id: 6,
         name: "СМИ о нас",
+        pathName: "/media-center/media-about-us/",
       },
       {
         id: 7,
         name: "Инфографики",
+        pathName: "/media-center/infographic/",
       },
       {
         id: 8,
         name: "Бизнес, экономика, финансы",
+        pathName: "/media-center/business-economics-finance/",
       },
     ],
   },
