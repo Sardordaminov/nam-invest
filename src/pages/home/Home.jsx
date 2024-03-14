@@ -2,6 +2,7 @@ import React from 'react'
 import { HomeStyles, Header, HomeItem, HomeTitle, HomeItemBtn, HomeSocialIcons } from './home.styles'
 import { Container } from '../../components/Navbar/navbar.styles'
 import HomeSlider from '../../components/Slider/home-slider/HomeSlider'
+import News from '../../components/News/News'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
           </HomeSocialIcons>
         </Header>
       </Container>
+      <News />
     </HomeStyles>
   )
 }

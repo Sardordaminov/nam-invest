@@ -11,7 +11,7 @@ export const Routes = () => {
       children: [
         { path: "/", element: <Home /> },
         { path: "/search", element: <Search /> },
-        { path: "/news", element: <News /> },
+        { path: "/media-center/press-releases/", element: <News /> },
         { path: "*", element: <Error /> },
       ],
     },

@@ -13,7 +13,7 @@ const NavbarBottom = () => {
                             <NavItemModalBx className='nav-item-modal-box'>
                                 {el.modalData.map((modal) => (
                                     <NavItemModal key={modal.id}>
-                                        <NavLink to={modal.name}>{modal.name}</NavLink>
+                                        <NavLink to={modal.pathName}>{modal.name}</NavLink>
                                     </NavItemModal>
                                 ))}
                             </NavItemModalBx>
