@@ -23,6 +23,7 @@ const Home = () => {
           </HomeSocialIcons>
         </Header>
       </Container>
+      
       <News />
     </HomeStyles>
   )
