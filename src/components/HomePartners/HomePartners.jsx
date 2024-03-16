@@ -2,8 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { partners } from '../../data/data'
+import './style.css'
+import { Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const HomePartners = () => {
+
     return (
         <div className='home-partners'>
             <div className="container">
@@ -18,10 +23,12 @@ const HomePartners = () => {
                 }}
                 modules={[Pagination]}
                 className="mySwiper"
+                id='home-partners-swiper'
             >
                 {partners.map((el) => (
-                    <SwiperSlide>
-                        <img src={el} alt="" />
+                    <SwiperSlide className='home-partners-slide'>
+                        <h1>Partner {el.name}</h1>
+                        <p className='slide-descr'>{el.descr.slice(0, 70)}</p>
                     </SwiperSlide>
                 ))}
             </Swiper>

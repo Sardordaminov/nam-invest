@@ -3,6 +3,7 @@ import { HomeStyles, Header, HomeItem, HomeTitle, HomeItemBtn, HomeSocialIcons }
 import { Container } from '../../components/Navbar/navbar.styles'
 import HomeSlider from '../../components/Slider/home-slider/HomeSlider'
 import News from '../../components/News/News'
+import HomePartners from '../../components/HomePartners/HomePartners'
 
 const Home = () => {
   return (
@@ -23,8 +24,8 @@ const Home = () => {
           </HomeSocialIcons>
         </Header>
       </Container>
-      
       <News />
+      <HomePartners />
     </HomeStyles>
   )
 }

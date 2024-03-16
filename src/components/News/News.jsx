@@ -5,7 +5,6 @@ import { faqData, news } from '../../data/data'
 
 const News = () => {
     const [tab, setTab] = useState(1)
-    console.log(tab);
     return (
         <div className='news'>
             <div className="container">
