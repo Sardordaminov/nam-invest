@@ -1,9 +1,10 @@
 import React from 'react'
-import { HomeStyles, Header, HomeItem, HomeTitle, HomeItemBtn, HomeSocialIcons } from './home.styles'
+import { HomeStyles, Header, HomeItem, HomeTitle, HomeItemBtn, HomeSocialIcons, HomeSupport, HomeSupportTitle, HomeSupportItems, HomeSupportItem } from './home.styles'
 import { Container } from '../../components/Navbar/navbar.styles'
 import HomeSlider from '../../components/Slider/home-slider/HomeSlider'
 import News from '../../components/News/News'
 import HomePartners from '../../components/HomePartners/HomePartners'
+import { support } from '../../data/data'
 
 const Home = () => {
   return (
@@ -26,6 +27,19 @@ const Home = () => {
       </Container>
       <News />
       <HomePartners />
+      <Container>
+        <HomeSupport>
+          <HomeSupportTitle>Поддержка NAM INVEST:</HomeSupportTitle>
+          <HomeSupportItems>
+            {support.map((el) => (
+              <HomeSupportItem key={el.id}>
+                <img src={el.image} alt={el.name} />
+                <p>{el.name}</p>
+              </HomeSupportItem>
+            ))}
+          </HomeSupportItems>
+        </HomeSupport>
+      </Container>
     </HomeStyles>
   )
 }

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NotFoundStyles = styled.div`
   width: 100%;
-  min-height: 70vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,6 +11,7 @@ export const NotFoundStyles = styled.div`
     font-size: 40px;
     color: #fff;
     margin-bottom: 20px;
+    letter-spacing: 1px;
   }
   a {
     padding: 13px 25px;
@@ -22,5 +23,8 @@ export const NotFoundStyles = styled.div`
     font-size: 13px;
     border-radius: 5px;
     transition: 0.4s ease;
+  }
+  a i {
+    margin-left: 5px;
   }
 `;

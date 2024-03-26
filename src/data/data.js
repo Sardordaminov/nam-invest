@@ -5,6 +5,15 @@ import partners_img4 from "../assets/partners/Kapitalbank.png";
 import partners_img5 from "../assets/partners/Anorbank.png";
 import partners_img6 from "../assets/partners/TBCbank.png";
 
+import support_img1 from "../assets/support/img1.svg";
+import support_img2 from "../assets/support/img2.svg";
+import support_img3 from "../assets/support/img3.svg";
+import support_img4 from "../assets/support/img4.svg";
+import support_img5 from "../assets/support/img5.svg";
+import support_img6 from "../assets/support/img6.svg";
+import support_img7 from "../assets/support/img7.svg";
+import support_img8 from "../assets/support/img8.svg";
+
 import news_post1 from "../assets/news/cards-image/post1.jpg";
 import news_post2 from "../assets/news/cards-image/post2.jpg";
 import news_post3 from "../assets/news/cards-image/post3.jpg";
@@ -320,6 +329,48 @@ export const partners = [
     descr: `История TBC Bank началась в 1992 году, когда два грузинских бизнесмена Мамука Хазарадзе и Бадри Джапаридзе с несколькими другими партнерами основали банк под названием «Tbilisi Business Centre», или короче «TBC». Банк был основан с капиталом в 500$. Эта сумма была минимально допустимой для основания банка в Грузии в начале 1990-х`,
     link: "https://www.youtube.com/watch?v=xVynAhGi3VE",
     image: partners_img6,
+  },
+];
+export const support = [
+  {
+    id: 1,
+    name: "Содействие в получении государственных услуг по принципу «одного окна»",
+    image: support_img1,
+  },
+  {
+    id: 2,
+    name: "Бесплатная консультация по инвестиционной деятельности в Узбекистане",
+    image: support_img2,
+  },
+  {
+    id: 3,
+    name: "Визовая поддержка инвесторов",
+    image: support_img3,
+  },
+  {
+    id: 4,
+    name: "Сопровождение при заключение инвестиционного контракта",
+    image: support_img4,
+  },
+  {
+    id: 5,
+    name: "Организация площадок для проведения переговоров с государственными органами",
+    image: support_img5,
+  },
+  {
+    id: 6,
+    name: "Структурирование и сопровождение инвестиционных проектов",
+    image: support_img6,
+  },
+  {
+    id: 7,
+    name: "Поддержка инвесторов в регионах Узбекистане",
+    image: support_img7,
+  },
+  {
+    id: 8,
+    name: "Решение проблемных вопросов инвесторов",
+    image: support_img8,
   },
 ];
 

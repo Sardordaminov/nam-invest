@@ -51,3 +51,7 @@ export const HomeSocialIcons = styled.div`
     }
   }
 `;
+export const HomeSupport = styled.div``;
+export const HomeSupportTitle = styled.h1``;
+export const HomeSupportItems = styled.div``;
+export const HomeSupportItem = styled.div``;
